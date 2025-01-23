@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="js.js"></script>
-    <title>Utstyr handleliste</title>
+    <title>Utstyrliste</title>
 </head>
 <body>
     <div class="container">
@@ -13,9 +13,9 @@
         <table id="itemTable">
             <thead>
                 <tr>
-                    <th>Item</th>
-                    <th>Quantity</th>
-                    <th>Action</th>
+                    <th>Gjenstander</th>
+                    <th>Mengde</th>
+                    <th>Kansellere</th>
                 </tr>
             </thead>
             <tbody>
@@ -25,10 +25,10 @@
         <div class="total-items">
             Total Items: <span id="totalCount">0</span>
         </div>
-        <input type="text" id="itemInput" placeholder="Enter item name" />
-        <input type="number" id="quantityInput" placeholder="Enter quantity" />
-        <button class="add-button" onclick="addItem()">Add Item</button>
-        <button class="order-button" onclick="placeOrder()">Place Order</button>
+        <input type="text" id="itemInput" placeholder="Skriv produkt" />
+        <input type="number" id="quantityInput" placeholder="Skriv mengde" />
+        <button class="add-button" onclick="addItem()">Legg til produkt</button>
+        <button class="order-button" onclick="placeOrder()">Bestill</button>
     </div>
 </body>
 </html>
