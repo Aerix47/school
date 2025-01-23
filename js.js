@@ -15,7 +15,7 @@ function addItem() {
         itemInput.value = '';
         quantityInput.value = '';
     } else {
-        alert('Please enter both item name and quantity.');
+        alert('Skriv både produkt og mengde.');
     }
 }
 
@@ -34,6 +34,6 @@ function placeOrder() {
         document.getElementById('totalCount').innerText = totalCount;
         document.getElementById('itemTable').getElementsByTagName('tbody')[0].innerHTML = '';
     } else {
-        alert('No items to order.');
+        alert('Ingen produkter til å bestille.');
     }
 }
